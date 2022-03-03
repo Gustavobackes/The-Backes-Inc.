@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: 'roboto';
+}
+
+header {
+  background: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header #ti {
+  margin: 0;
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+li {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 10px;
+}
+#ti:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+li:hover {
+  transition: 0.3s;
+  color: white;
+}
+
+ul #home {
+  color: white;
+
+  margin: 0;
+}
+aside {
+  position: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  background: #eeeeee;
+}
+aside .nav {
+  width: 67%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+aside .nav h2 {
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+aside .nav p {
+  font-size: 20px;
+  color: #333333;
+}
+aside .nav button {
+  font-size: 20px;
+  color: white;
+  background-color: #3b89ce;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+aside .nav button:hover {
+  cursor: pointer;
+  background-color: #3478b3;
+}
+footer .row {
+  display: flex;
+  width: 67%;
+  justify-content: space-between;
+  margin-left: 50%;
+  transform: translate(-50%);
+  color: #333333;
+}
+footer .row .r {
+  width: 400px;
+  margin-left: 10px;
+}
+footer .row .r button {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+footer .row .r button:hover {
+  background-color: rgb(238, 238, 238);
+  cursor: pointer;
+}
